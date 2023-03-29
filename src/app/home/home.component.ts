@@ -7,7 +7,7 @@ import { Alumno } from '../src/clases';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  title = 'clase-04-practica';
+  title = 'Ejercio de listas';
 
   public alumnos: Alumno[] = [
     new Alumno('Javier', 'Mendoza', 30),
@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
     new Alumno('Romina', 'Gomez', 30),
     new Alumno('Monica', 'Peralta', 30),
   ]
-
 
   ngOnInit() {
     console.log('Se inicia complemento')

@@ -1,8 +1,5 @@
 
-  <p>home works!</p>
-
-
-    <ul>
-      <li *ngFor="let alumno of alumnos">{{ alumno }}</li>
-    </ul>
+  <ul>
+    <li *ngFor="let alumno of alumnos">{{ alumno.nombre +" "+ alumno.apellido+", Edad: "+alumno.edad }}</li>
+  </ul>
 
